@@ -1,0 +1,93 @@
+.box9 {
+    /* for next component */
+    background: url('https://pwebassets.paytm.com/commonwebassets/commonweb/images/home/gray-spike.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 3em;
+    height: 587px;
+
+}
+
+.box9-1 {
+    /* border: 2px solid blue; */
+    width: 70vw;
+}
+
+.box9-1>img {
+    height: 58vh;
+    margin-left: 8em;
+    /* margin-top: 1.5em; */
+
+    /* border: 2px solid saddlebrown; */
+
+}
+
+.box9-2 {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60vw;
+}
+
+.box9-2>img {
+    height: 54px;
+    width: 10vw;
+    /* border: 2px solid black; */
+    margin: -2em .1em;
+}
+
+.box9-2>h1 {
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+
+.box9-2>p {
+    margin-top: -1.9em;
+    font-size: 1.4em;
+
+}
+
+.box9-2>button {
+
+    width: 12vw;
+
+    outline: none;
+    border: none;
+    border-radius: 10em;
+    height: 7vh;
+    background-color: #002970;
+    color: white;
+    letter-spacing: .02em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .4s;
+    font-size: 0.99em;
+    margin-top: -2em;
+}
+
+.box9-2>button>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.09em;
+}
+
+.box9-2>button:hover {
+    background-color: #00baf2;
+    color: white;
+    outline: 1px solid none;
+
+}
+
+.iconbutton {
+    transition: all 3s ease;
+}
+
+#react_icon {
+    transform: scale(1.1);
+    margin-left: .3em;
+    font-weight: bold;
+    font-size: 1.3em;
+}

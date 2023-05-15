@@ -1,0 +1,54 @@
+.box7_ini{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 80vh;
+    justify-content: space-evenly;
+    
+
+}
+.box7,
+.box7_second{
+    /* border: 2px solid blue; */
+    
+    width: 36vw;
+    background-color: white;
+    border-radius: 1em;
+}
+.box_item_7_1 > div,.box_item_7_1_second > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 79vh;
+    padding-left: 2.5em;
+    /* border: 2px solid black; */
+    
+}
+
+.box_item_7_1 > div > h1,
+.box_item_7_1_second > div > h1{
+    padding-left: .1em;
+    font-size: 2.5em;
+}
+.box_item_7_1 > div > p,
+.box_item_7_1_second > div > p{
+    padding-left: .5em;
+    font-size: 1.2em;
+    font-weight: 550;
+}
+.first_one{
+    margin: .8em;
+    height: 12vh;
+    width: 15vw;
+}
+.second_one{
+    margin-top: 5.4em;
+    padding-left: .6em;
+    height: auto;
+    width: 15vw;
+    /* width: auto; */
+}
+.one{
+    height: 35vh;
+    width: auto;
+}
